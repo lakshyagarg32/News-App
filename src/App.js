@@ -34,7 +34,7 @@ setProgress=(progress)=>{
       
        <Routes>
           <Route exact  path="/technology" element={< News setProgress={this.setProgress} apiKey={this.apiKey} key="technology" pageSize={this.pageSize} country="in" category="technology" />}/>
-          <Route exact path="/" element={ < News setProgress={this.setProgress} apiKey={this.apiKey} key="general" pageSize={this.pageSize} country="in" category="general" />} />
+          <Route exact path="/News-App" element={ < News setProgress={this.setProgress} apiKey={this.apiKey} key="general" pageSize={this.pageSize} country="in" category="general" />} />
           <Route exact path="/business" element={ < News setProgress={this.setProgress} apiKey={this.apiKey} key="business" pageSize={this.pageSize} country="in" category="business" />}/>
           <Route exact path="/entertainment" element={ < News setProgress={this.setProgress} apiKey={this.apiKey} key="entertainment" pageSize={this.pageSize} country="in" category="entertainment" />}/>
           <Route exact path="/health" element={ < News setProgress={this.setProgress} apiKey={this.apiKey} key="health" pageSize={this.pageSize} country="in" category="health" />}/>
