@@ -5,8 +5,6 @@ import { Link} from "react-router-dom";
 
 const Navbar=()=> {
   
-
-  
     return (
       <div>
         <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,18 +21,13 @@ const Navbar=()=> {
         <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
         <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
         <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
-       
-       
-      
+        <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>  
       </ul>
-     
     </div>
   </div>
 </nav>
       </div>
     )
-  
 }
 
 export default Navbar
